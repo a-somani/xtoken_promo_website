@@ -39,7 +39,7 @@ const Navbar = ({ toggleMenu }) => {
             }}
           >
             <img
-              style={{ width: "50%", height: "auto" }}
+              // style={{ width: "50%", height: "auto" }}
               src={XtkLogo}
               alt="xToken"
             />

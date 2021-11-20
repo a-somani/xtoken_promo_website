@@ -40,6 +40,26 @@ export const NavLogo = styled(LinkR)`
   margin-left: 0px;
   font-weight: bold;
   text-decoration: none;
+  width: 200px;
+  @media screen and (max-width: 768px) {
+    width: 200px;
+  }
+  @media screen and (max-width: 768px) {
+    margin-top: -8px;
+    width: 150px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1000px) {
+    width: 150px;
+    margin-right: 40px;
+  }
+
+  img {
+    width: 80%;
+    height: auto;
+    @media screen and (max-width: 540px) {
+      width: 90%;
+    }
+  }
 
   /* &:hover {
     font-size: 1.8rem;
