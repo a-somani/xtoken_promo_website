@@ -11,6 +11,9 @@ export const Container = styled.div`
   z-index: 0;
   overflow: hidden;
   background: linear-gradient(#943bf3, #5327ee);
+  @media screen and (max-width: 400px) {
+    min-height: 300px;
+  }
 `
 
 export const ContentWrap = styled.div`
@@ -20,7 +23,7 @@ export const ContentWrap = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 400px) {
-    height: 80%;
+    height: 100%;
   }
 `
 export const Icon = styled(Link)`
@@ -37,6 +40,11 @@ export const Icon = styled(Link)`
     margin-top: 8px;
     margin-bottom: 8px;
   }
+  @media screen and (max-width: 400px) {
+    margin-left: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
 `
 
 export const PriceContent = styled.div`
@@ -47,6 +55,7 @@ export const PriceContent = styled.div`
   margin-top: -100px;
   @media screen and (max-width: 400px) {
     padding: 10px;
+    margin-top: -20px;
   }
 `
 export const Prices = styled.div`
@@ -65,7 +74,7 @@ export const Prices = styled.div`
   box-shadow: #4706b6 0px 0px 10px;
 
   @media screen and (max-width: 400px) {
-    padding: 32px 32px;
+    padding: 16px 16px;
   }
 `
 
@@ -75,6 +84,13 @@ export const PriceHeading = styled.h1`
   font-size: 25px;
   font-weight: 600;
   text-align: center;
+  @media screen and (max-width: 400px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 300px) {
+    font-size: 14px;
+    padding-right: 15px;
+  }
 `
 export const APILabel = styled.a`
   font-size: 24px;
@@ -86,10 +102,21 @@ export const APILabel = styled.a`
   font-weight: 600;
   color: #60d0fd;
   text-decoration: none;
+  @media screen and (max-width: 300px) {
+    padding: none;
+  }
   p {
     padding-left: 10px;
     padding-right: 15px;
     margin-top: -3px;
+    @media screen and (max-width: 400px) {
+      font-size: 16px;
+      margin-top: 0px;
+    }
+    @media screen and (max-width: 300px) {
+      font-size: 12px;
+      margin-top: 0px;
+    }
   }
 `
 export const ExchangeElements = styled.div`
@@ -98,12 +125,17 @@ export const ExchangeElements = styled.div`
   color: red;
   outline: 10px;
   font-size: 20px;
+  align-items: center;
+  @media screen and (max-width: 300px) {
+    width: 90%;
+  }
 
   a {
     text-decoration: none;
   }
 `
 export const Element = styled.div`
+  align-items: center;
   padding: 15px;
   font-weight: 600;
   margin-bottom: 15px;
@@ -119,6 +151,12 @@ export const Element = styled.div`
     (trustScore === "yellow" && "#ffdf00") ||
     (trustScore === "red" && "#c43931")};
   text-align: center;
+  @media screen and (max-width: 400px) {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 300px) {
+    font-size: 12px;
+  }
 
   &:hover {
     transition: all 200ms ease-in-out;

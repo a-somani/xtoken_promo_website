@@ -74,6 +74,9 @@ export const Exploits = styled.img`
     width: 100%;
     margin-bottom: 0.5rem;
   }
+  @media screen and (max-width: 768px) {
+    max-height: 100px;
+  }
 `
 export const H1 = styled.h1`
   font-size: 2.5rem;
@@ -83,6 +86,9 @@ export const H1 = styled.h1`
   @media screen and (max-width: 480px) {
     font-size: 2rem;
   }
+  @media screen and (max-width: 400px) {
+    font-size: 1.5rem;
+  }
 `
 export const H2 = styled.h2`
   font-size: 1rem;
@@ -90,6 +96,11 @@ export const H2 = styled.h2`
   margin-right: -12px;
   margin-bottom: 10px;
   color: #1b1658;
+  @media screen and (max-width: 400px) {
+    margin-bottom: 5px;
+
+    font-size: 0.9rem;
+  }
 `
 export const P = styled.p`
   font-size: 0.9rem;
@@ -97,6 +108,9 @@ export const P = styled.p`
   color: #322c79;
   @media screen and (max-width: 1200px) and (min-width: 768px) {
     font-size: 0.8rem;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 0.78rem;
   }
   a {
     color: #322c79;

@@ -48,6 +48,12 @@ export const CarouselWrap = styled.div`
   @media screen and (max-width: 480px) {
     max-width: 400px;
   }
+  @media screen and (max-width: 400px) {
+    max-width: 300px;
+  }
+  @media screen and (max-width: 300px) {
+    max-width: 250px;
+  }
 
   .carousel {
     display: flex;
