@@ -145,11 +145,11 @@ export const Element = styled.div`
   outline-color: #aaead0;
   outline-width: 3px;
   //box-shadow: #2bca89 0px 0px 8px;
-  //#01bf71 and #ffdf00 and #c43931
+  //#01bf71 and #ffdf00 and #c43931 and #F6BE00
   color: ${({ trustScore }) =>
     (trustScore === "green" && "#01bf71") ||
-    (trustScore === "yellow" && "#ffdf00") ||
-    (trustScore === "red" && "#c43931")};
+    (trustScore === "yellow" && "#F6BE00") ||
+    ((trustScore === "red" || trustScore == null) && "#c43931")};
   text-align: center;
   @media screen and (max-width: 400px) {
     font-size: 16px;
