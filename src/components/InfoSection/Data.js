@@ -28,7 +28,7 @@ export const homeObjOne = {
       >
         stake
       </a>
-      : AAVE, KNC, SNX, BNT, 1INCH, and ALPHA. <br />
+      : AAVE, KNC, BNT, 1INCH, and ALPHA. <br />
       <br />
       You can even make your stable coins productive! You can provide liquidity
       to many pairs like USDC-USDT on the{" "}
