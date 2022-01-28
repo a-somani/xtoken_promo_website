@@ -2,7 +2,7 @@
 
 ### View this project live at: https://explore-xtoken.netlify.app/
 
-This react website was made as part of a promotional contest for the xToken DeFi Protocol in November 2021, for which this website was awarded a secondary prize! https://medium.com/xtoken/xtoken-threadoooor-competition-results-eb05b4c4a69d - Third link under honorable mentions
+This project is a promotional website that was made as part of a contest for the xToken DeFi Protocol in November 2021, for which this website was awarded a secondary prize! https://medium.com/xtoken/xtoken-threadoooor-competition-results-eb05b4c4a69d - Third link under honorable mentions
 
 <br/>
 <br/>
