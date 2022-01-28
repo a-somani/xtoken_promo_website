@@ -40,11 +40,6 @@ export const Icon = styled(Link)`
     margin-top: 8px;
     margin-bottom: 8px;
   }
-  @media screen and (max-width: 400px) {
-    margin-left: 16px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-  }
 `
 
 export const PriceContent = styled.div`
@@ -53,9 +48,13 @@ export const PriceContent = styled.div`
   flex-direction: column;
   justify-content: center;
   margin-top: -100px;
+
   @media screen and (max-width: 400px) {
     padding: 10px;
     margin-top: -20px;
+  }
+  @media screen and (max-width: 768px) {
+    padding-top: 20px;
   }
 `
 export const Prices = styled.div`
@@ -73,7 +72,7 @@ export const Prices = styled.div`
   color: #000;
   box-shadow: #4706b6 0px 0px 10px;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 768px) {
     padding: 16px 16px;
   }
 `
@@ -95,6 +94,7 @@ export const PriceHeading = styled.h1`
 export const APILabel = styled.a`
   font-size: 24px;
   align-items: center;
+  justify-content: center;
   display: flex;
   flex-direction: row;
   padding: 10px;
@@ -102,21 +102,20 @@ export const APILabel = styled.a`
   font-weight: 600;
   color: #60d0fd;
   text-decoration: none;
-  @media screen and (max-width: 300px) {
-    padding: none;
-  }
   p {
     padding-left: 10px;
     padding-right: 15px;
     margin-top: -3px;
-    @media screen and (max-width: 400px) {
-      font-size: 16px;
+    @media screen and (max-width: 768px) {
+      font-size: 20px;
       margin-top: 0px;
     }
     @media screen and (max-width: 300px) {
       font-size: 12px;
-      margin-top: 0px;
     }
+  }
+  @media screen and (max-width: 768px) {
+    padding: 2px;
   }
 `
 export const ExchangeElements = styled.div`
