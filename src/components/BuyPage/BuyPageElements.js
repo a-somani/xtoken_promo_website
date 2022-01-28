@@ -11,7 +11,7 @@ export const Container = styled.div`
   z-index: 0;
   overflow: hidden;
   background: linear-gradient(#943bf3, #5327ee);
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 425px) {
     min-height: 300px;
   }
 `
@@ -22,7 +22,7 @@ export const ContentWrap = styled.div`
   flex-direction: column;
   justify-content: center;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 425px) {
     height: 100%;
   }
 `
@@ -49,7 +49,7 @@ export const PriceContent = styled.div`
   justify-content: center;
   margin-top: -100px;
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 425px) {
     padding: 10px;
     margin-top: -20px;
   }
@@ -59,7 +59,7 @@ export const PriceContent = styled.div`
 `
 export const Prices = styled.div`
   background: #fff;
-  max-width: 400px;
+  max-width: 425px;
   height: auto;
   width: 100%;
   z-index: 1;
@@ -83,7 +83,7 @@ export const PriceHeading = styled.h1`
   font-size: 25px;
   font-weight: 600;
   text-align: center;
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 425px) {
     font-size: 18px;
   }
   @media screen and (max-width: 300px) {
@@ -110,8 +110,15 @@ export const APILabel = styled.a`
       font-size: 20px;
       margin-top: 0px;
     }
-    @media screen and (max-width: 300px) {
-      font-size: 12px;
+    @media screen and (max-width: 425px) {
+      font-size: 14px;
+    }
+  }
+  img {
+    width: 150px;
+    height: auto;
+    @media screen and (max-width: 425px) {
+      width: 100px;
     }
   }
   @media screen and (max-width: 768px) {
@@ -125,10 +132,6 @@ export const ExchangeElements = styled.div`
   outline: 10px;
   font-size: 20px;
   align-items: center;
-  @media screen and (max-width: 300px) {
-    width: 90%;
-  }
-
   a {
     text-decoration: none;
   }
@@ -150,7 +153,7 @@ export const Element = styled.div`
     (trustScore === "yellow" && "#F6BE00") ||
     ((trustScore === "red" || trustScore == null) && "#c43931")};
   text-align: center;
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 425px) {
     font-size: 16px;
   }
   @media screen and (max-width: 300px) {

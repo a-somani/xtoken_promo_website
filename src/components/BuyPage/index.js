@@ -105,12 +105,7 @@ const BuyPage = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <p>Powered by</p>{" "}
-                <img
-                  src={CoinGecko}
-                  alt=""
-                  style={{ width: "150px", height: "auto" }}
-                />
+                <p>Powered by</p> <img src={CoinGecko} alt="" />
               </APILabel>
             </Prices>
           </PriceContent>
