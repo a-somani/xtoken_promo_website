@@ -4,7 +4,8 @@
 
 This project is a promotional website that was made as part of a contest for the xToken DeFi Protocol in November 2021, for which this website was awarded a secondary prize! https://medium.com/xtoken/xtoken-threadoooor-competition-results-eb05b4c4a69d - Third link under honorable mentions
 
-This tutorial was used as inspiration for the website design: https://www.youtube.com/watch?v=Nl54MJDR2p8
+This tutorial was used to help design the website: https://www.youtube.com/watch?v=Nl54MJDR2p8
+<br/>
 <br/>
 <br/>
 
