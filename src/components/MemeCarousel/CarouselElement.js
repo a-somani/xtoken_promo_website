@@ -14,7 +14,7 @@ export const H1 = styled.h1`
   font-size: 2.5rem;
   color: #fff;
   margin-bottom: 0;
-  padding-top: 5rem;
+  padding-top: 6rem;
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
@@ -64,22 +64,4 @@ export const CarouselWrap = styled.div`
     margin: 36px auto;
     width: 100%;
   }
-
-  /* @media only screen and (max-width: 800px) {
-    .carousel {
-      height: vh;
-    }
-    .carousel .slide {
-      margin: 10vh auto;
-      width: 100vw;
-    }
-    @media only screen and (max-width: 540px) {
-    .carousel {
-      height: 60vh;
-    }
-    .carousel .slide {
-      margin: 10vh auto;
-      width: 100vw;
-    }
-  } */
 `

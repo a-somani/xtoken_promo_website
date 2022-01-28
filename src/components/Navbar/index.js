@@ -55,7 +55,7 @@ const Navbar = ({ toggleMenu }) => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={0}
+                offset={25}
               >
                 Current Platform
               </NavLinks>
@@ -67,7 +67,7 @@ const Navbar = ({ toggleMenu }) => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={0}
+                offset={25}
               >
                 Updates on the Way
               </NavLinks>
@@ -79,7 +79,7 @@ const Navbar = ({ toggleMenu }) => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={0}
+                offset={25}
               >{`Why xToken?`}</NavLinks>
             </NavItem>
             <NavItem>
@@ -89,7 +89,7 @@ const Navbar = ({ toggleMenu }) => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={0}
+                offset={25}
               >
                 Memes
               </NavLinks>
