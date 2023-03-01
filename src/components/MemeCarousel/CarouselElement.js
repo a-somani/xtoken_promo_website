@@ -6,6 +6,7 @@ export const InfoContainer = styled.div`
   color: #fff;
   background: linear-gradient(#692ef0, #5327ee);
   padding: 20px 0;
+  height: 100vh;
 `
 /* background: ${({ lightBg }) =>
       lightBg ? "#943BF3" : "#5a22f5"}; //943BF3 or 5327EE */

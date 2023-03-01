@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-  height: 800px;
+  height: 100vh;
   padding-top: 20px;
   display: flex;
   flex-direction: column;
@@ -10,6 +10,7 @@ export const Container = styled.div`
   background: linear-gradient(#7a33f1, #692ef0);
   @media screen and (max-width: 768px) {
     height: 1100px;
+    padding-top: 100px;
   }
   @media screen and (max-width: 480px) {
     height: 1300px;
